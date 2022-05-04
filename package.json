@@ -1,0 +1,9 @@
+{
+  "name": "memes",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "repository": "https://github.com/LoooserWith3o/memes.git",
+  "author": "Chris <christiantokic@hotmail.com>",
+  "license": "MIT"
+}
