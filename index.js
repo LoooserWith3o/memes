@@ -24,7 +24,8 @@ while ((n = rex.exec(str))) {
 const img = urls.slice(0, 10);
 
 for (let i = 0; i < img.length; i++) {
-  const path = `./memes1/0${i}.jpg`;
+  const path = `./memes1/0${i + 1}.jpg`;
+
   https
     .get(img[i], (res) => {
       const imagePath = path;
